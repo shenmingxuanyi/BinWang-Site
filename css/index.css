@@ -122,5 +122,222 @@
 fieldset[disabled] .navbar-danger .btn-link:hover,
 .navbar-danger .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-danger .btn-link:focus {
-    color: green;
+    color: #ccc;
 }
+
+.footer {
+    background-color: #eb6266;
+    padding: 35px 0px;
+    color: #9e3034;
+}
+
+.footer .light {
+    color: #fff;
+}
+
+/** dropdown-menu-fluid **/
+.navbar-danger dropdown-menu.dropdown-menu-fluid {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 50px;
+
+    background-color: #eb6266;
+    color: #fff;
+}
+
+.text-success {
+    color: #5cb85c;
+}
+
+.text-danger {
+    color: #eb6266;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.text-lightgray {
+    color: lightgray;
+}
+
+.lightgray-bg {
+    background-color: #f4f4f4;
+}
+
+.section1 {
+    padding-top: 30px;
+}
+
+.section1 .thumbnail-list {
+    padding-top: 15px;
+}
+
+.section1 .thumbnail.thumbnail-caption {
+    border: none;
+}
+
+.section1 .thumbnail.thumbnail-caption img {
+    width: 100%;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.section1 .thumbnail.thumbnail-caption:focus img,
+.section1 .thumbnail.thumbnail-caption:hover img {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.section1 .thumbnail.thumbnail-caption .title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.section1 .thumbnail.thumbnail-caption:focus .title,
+.section1 .thumbnail.thumbnail-caption:hover .title {
+    color: #eb6266;
+}
+
+.section1 .thumbnail.thumbnail-caption .date {
+    display: inline-block;
+    border-top: 1px solid #eb6266;
+    padding: .5rem .8rem;
+}
+
+.section2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.section3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.section3 .card {
+    margin: 15px 0;
+}
+
+.section3 .card.card-left .card-body {
+    padding: 10px 15px 10px 5px;
+}
+
+.section3 .card.card-left .card-item img {
+    width: 100%;
+
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.section3 .card.card-left .card-item:focus img,
+.section3 .card.card-left .card-item:hover img {
+    -webkit-transform: scale(0.9) rotate(10deg);
+    -moz-transform: scale(0.9) rotate(10deg);
+    -ms-transform: scale(0.9) rotate(10deg);
+    -o-transform: scale(0.9) rotate(10deg);
+    transform: scale(0.9) rotate(10deg);
+
+}
+
+.section3 .card.card-left .card-item:focus .title,
+.section3 .card.card-left .card-item:hover .title {
+    color: #eb6266;
+}
+
+.section3 .card.card-right {
+    padding: 10px 15px;
+}
+
+.section3 .card.card-right .link-item {
+    border-bottom: 1px solid #dedede;
+}
+
+.section3 .card.card-right .link-item:focus,
+.section3 .card.card-right .link-item:hover {
+    color: #eb6266;
+}
+
+.section4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section4 .video {
+    position: relative;
+}
+
+.section4 .video:focus .info,
+.section4 .video:hover .info {
+    display: inline-block;
+
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.section4 .video {
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.section4 .video .play1 {
+    position: absolute;
+    top: 33.3%;
+    bottom: 33.3%;
+    left: 33.3%;
+    right: 33.3%;
+    height: 33.3%;
+}
+
+.section4 .video .info {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    border: 20px solid #eb6266;
+    background-color: #fff;
+
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+
+    -webkit-transform: translate(0, 100%);
+    -moz-transform: translate(0, 100%);
+    -ms-transform: translate(0, 100%);
+    -o-transform: translate(0, 100%);
+    transform: translate(0, 100%);
+}
+
+.section4 .video .info .text-info {
+    padding: 5px 10px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.section4 .video .info .play2 {
+    position: absolute;
+    bottom: 5%;
+    height: 33.3%;
+    left: 33.3%;
+    right: 33.3%;
+}
+

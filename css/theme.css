@@ -1,3 +1,37 @@
 body {
     padding-top: 50px;
 }
+
+.text-bold {
+    font-weight: bold;
+}
+
+.no-redius {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.padding {
+    padding: 16px;
+}
+
+.padding-top {
+    padding-top: 16px;
+}
+
+.padding-bottom {
+    padding-bottom: 16px;
+}
+
+.margin {
+    margin: 16px;
+}
+
+.margin-top {
+    margin-top: 16px;
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
