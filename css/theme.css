@@ -36,8 +36,6 @@ body {
     margin-bottom: 16px;
 }
 
-
-
 .navbar-danger {
     background-color: #fff;
     border-color: #fff;
@@ -166,15 +164,32 @@ fieldset[disabled] .navbar-danger .btn-link:focus {
     color: #fff;
 }
 
-/** dropdown-menu-fluid **/
-.navbar-danger dropdown-menu.dropdown-menu-fluid {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 50px;
+@media (min-width: 768px) {
+    /** dropdown-menu-fluid **/
+    .navbar-danger .dropdown-menu.dropdown-menu-fluid {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 50px;
 
-    background-color: #eb6266;
-    color: #fff;
+        background-color: #eb6266;
+        color: #fff;
+        padding: 0;
+    }
+
+    .navbar-danger .dropdown-menu.dropdown-menu-fluid .menu-img {
+        height: 100px;
+    }
+
+    .navbar-danger .dropdown-menu.dropdown-menu-fluid .menu-list {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .navbar-danger .dropdown-menu.dropdown-menu-fluid .menu-list .btn.btn-link {
+        color: #fff;
+    }
+
 }
 
 .text-success {
