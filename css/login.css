@@ -1,0 +1,9 @@
+body {
+    background-image: url("../image/login/background.jpg");
+
+    height:100vh;
+    width: 100vw;
+
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+}
