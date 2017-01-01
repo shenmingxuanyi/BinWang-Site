@@ -1,0 +1,8 @@
+.section4 .video .info {
+    display: none;
+}
+
+.section4 .video:focus .info,
+.section4 .video:hover .info {
+    display: inline-block;
+}

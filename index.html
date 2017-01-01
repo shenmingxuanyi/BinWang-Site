@@ -17,6 +17,10 @@
     <link href="css/index.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie-shim.css" type="text/css"/>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
     <script src="lib/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="lib/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -35,7 +39,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">宾王中学</a>
+            <a class="navbar-brand hidden" href="#">宾王中学</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -44,39 +48,247 @@
                     <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">校园新闻<span
                             class="caret"></span></a>
                     <ul class="dropdown-menu dropdown-menu-fluid" role="menu">
-                        <div class="container ">
-                            <img class="menu-img" src="image/navbar/image.png"/>
-                            <div class="menu-list">
-                                <div>
-                                    <a class="btn btn-link">122</a>
-                                    <a class="btn btn-link">122</a>
-                                    <a class="btn btn-link">122</a>
-                                    <a class="btn btn-link">122</a>
-                                    <a class="btn btn-link">122</a>
+                        <div class="container no-redius">
+
+                            <div class="row">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="menu-img text-right" src="image/navbar/image.png"/>
                                 </div>
-                                <div>
-                                    <a class="btn btn-link">122</a>
-                                    <a class="btn btn-link">122</a>
-                                    <a class="btn btn-link">122</a>
-                                    <a class="btn btn-link">122</a>
-                                    <a class="btn btn-link">122</a>
+                                <div class="col-md-10 col-sm-7 menu-list">
+
+                                    <div>
+                                        <a class="btn btn-link">校园简介</a>
+                                        <a class="btn btn-link">教师简介</a>
+                                        <a class="btn btn-link">校园新闻</a>
+                                        <a class="btn btn-link">优秀学生</a>
+                                        <a class="btn btn-link">校园简介</a>
+                                        <a class="btn btn-link">教师简介</a>
+                                        <a class="btn btn-link">校园新闻</a>
+                                        <a class="btn btn-link">优秀学生</a>
+                                    </div>
+
+                                    <div>
+                                        <a class="btn btn-link">领导简介</a>
+                                        <a class="btn btn-link">学校荣誉</a>
+                                        <a class="btn btn-link">名师简介</a>
+                                        <a class="btn btn-link">领导简介</a>
+                                        <a class="btn btn-link">学校荣誉</a>
+                                        <a class="btn btn-link">名师简介</a>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
                     </ul>
                 </li>
-
                 <li class="dropdown visible-xs">
                     <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">校园新闻<span
                             class="caret"></span></a>
                     <ul class="dropdown-menu dropdown-menu-fluid" role="menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">校园简介</a></li>
+                        <li><a href="#">教师简介</a></li>
+                        <li><a href="#">校园新闻</a></li>
+                        <li><a href="#">优秀学生</a></li>
                         <li class="divider"></li>
-                        <li class="dropdown-header">Nav header</li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
+                        <li><a href="#">领导简介</a></li>
+                        <li><a href="#">学校荣誉</a></li>
+                        <li><a href="#">名师简介</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="dropdown hidden-xs">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">走进宾中<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-fluid" role="menu">
+                        <div class="container no-redius">
+
+                            <div class="row">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="menu-img text-right" src="image/navbar/image.png"/>
+                                </div>
+                                <div class="col-md-10 col-sm-7 menu-list">
+
+                                    <div>
+                                        <a class="btn btn-link">校园简介</a>
+                                        <a class="btn btn-link">教师简介</a>
+                                        <a class="btn btn-link">校园新闻</a>
+                                        <a class="btn btn-link">优秀学生</a>
+                                    </div>
+
+                                    <div>
+                                        <a class="btn btn-link">领导简介</a>
+                                        <a class="btn btn-link">学校荣誉</a>
+                                        <a class="btn btn-link">名师简介</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown visible-xs">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">走进宾中<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-fluid" role="menu">
+                        <li><a href="#">校园简介</a></li>
+                        <li><a href="#">教师简介</a></li>
+                        <li><a href="#">校园新闻</a></li>
+                        <li><a href="#">优秀学生</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">领导简介</a></li>
+                        <li><a href="#">学校荣誉</a></li>
+                        <li><a href="#">名师简介</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="dropdown hidden-xs">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">校务公开<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-fluid" role="menu">
+                        <div class="container no-redius">
+
+                            <div class="row">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="menu-img text-right" src="image/navbar/image.png"/>
+                                </div>
+                                <div class="col-md-10 col-sm-7 menu-list">
+
+                                    <div>
+                                        <a class="btn btn-link">校园简介</a>
+                                        <a class="btn btn-link">教师简介</a>
+                                        <a class="btn btn-link">校园新闻</a>
+                                        <a class="btn btn-link">优秀学生</a>
+                                        <a class="btn btn-link">校园简介</a>
+                                    </div>
+
+                                    <div>
+                                        <a class="btn btn-link">领导简介</a>
+                                        <a class="btn btn-link">学校荣誉</a>
+                                        <a class="btn btn-link">名师简介</a>
+                                        <a class="btn btn-link">领导简介</a>
+                                        <a class="btn btn-link">学校荣誉</a>
+                                        <a class="btn btn-link">名师简介</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown visible-xs">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">校务公开<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-fluid" role="menu">
+                        <li><a href="#">校园简介</a></li>
+                        <li><a href="#">教师简介</a></li>
+                        <li><a href="#">校园新闻</a></li>
+                        <li><a href="#">优秀学生</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">领导简介</a></li>
+                        <li><a href="#">学校荣誉</a></li>
+                        <li><a href="#">名师简介</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="dropdown hidden-xs">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">德育天地<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-fluid" role="menu">
+                        <div class="container no-redius">
+
+                            <div class="row">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="menu-img text-right" src="image/navbar/image.png"/>
+                                </div>
+                                <div class="col-md-10 col-sm-7 menu-list">
+
+                                    <div>
+
+                                        <a class="btn btn-link">校园新闻</a>
+                                        <a class="btn btn-link">优秀学生</a>
+                                        <a class="btn btn-link">校园简介</a>
+                                        <a class="btn btn-link">教师简介</a>
+                                        <a class="btn btn-link">校园新闻</a>
+                                        <a class="btn btn-link">优秀学生</a>
+                                    </div>
+
+                                    <div>
+                                        <a class="btn btn-link">领导简介</a>
+                                        <a class="btn btn-link">学校荣誉</a>
+                                        <a class="btn btn-link">名师简介</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown visible-xs">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">德育天地<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-fluid" role="menu">
+                        <li><a href="#">校园简介</a></li>
+                        <li><a href="#">教师简介</a></li>
+                        <li><a href="#">校园新闻</a></li>
+                        <li><a href="#">优秀学生</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">领导简介</a></li>
+                        <li><a href="#">学校荣誉</a></li>
+                        <li><a href="#">名师简介</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown hidden-xs">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">校园图片<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-fluid" role="menu">
+                        <div class="container no-redius">
+
+                            <div class="row">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="menu-img text-right" src="image/navbar/image.png"/>
+                                </div>
+                                <div class="col-md-10 col-sm-7 menu-list">
+
+                                    <div>
+                                        <a class="btn btn-link">校园新闻</a>
+                                        <a class="btn btn-link">优秀学生</a>
+                                        <a class="btn btn-link">校园简介</a>
+                                        <a class="btn btn-link">教师简介</a>
+                                        <a class="btn btn-link">校园新闻</a>
+                                    </div>
+
+                                    <div>
+                                        <a class="btn btn-link">领导简介</a>
+                                        <a class="btn btn-link">学校荣誉</a>
+                                        <a class="btn btn-link">名师简介</a>
+                                        <a class="btn btn-link">领导简介</a>
+                                        <a class="btn btn-link">名师简介</a>
+                                        <a class="btn btn-link">领导简介</a>
+                                        <a class="btn btn-link">学校荣誉</a>
+                                        <a class="btn btn-link">名师简介</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown visible-xs">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">校园图片<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-fluid" role="menu">
+                        <li><a href="#">校园简介</a></li>
+                        <li><a href="#">教师简介</a></li>
+                        <li><a href="#">校园新闻</a></li>
+                        <li><a href="#">优秀学生</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">领导简介</a></li>
+                        <li><a href="#">学校荣誉</a></li>
+                        <li><a href="#">名师简介</a></li>
                     </ul>
                 </li>
 

@@ -182,8 +182,7 @@ fieldset[disabled] .navbar-danger .btn-link:focus {
     }
 
     .navbar-danger .dropdown-menu.dropdown-menu-fluid .menu-list {
-        display: inline-block;
-        margin-left: 20px;
+        padding: 16px 0;
     }
 
     .navbar-danger .dropdown-menu.dropdown-menu-fluid .menu-list .btn.btn-link {
