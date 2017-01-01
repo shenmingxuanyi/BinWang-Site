@@ -109,6 +109,55 @@
     color: #fff;
 }
 
+.menu-list .title {
+    color: #fff;
+    background-color: #5cb85c;
+    display: block;
+    padding: 10px 15px;
+
+    -webkit-border-top-left-radius: 18px;
+    -moz-border-top-left-radius: 18px;
+    -ms-border-top-left-radius: 18px;
+    -o-border-top-left-radius: 18px;
+    border-top-left-radius: 18px;
+
+    -webkit-border-bottom-right-radius: 18px;
+    -moz-border-bottom-right-radius: 18px;
+    -ms-border-bottom-right-radius: 18px;
+    -o-border-bottom-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.menu-list li a {
+
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+
+    -webkit-border-top-left-radius: 18px;
+    -moz-border-top-left-radius: 18px;
+    -ms-border-top-left-radius: 18px;
+    -o-border-top-left-radius: 18px;
+    border-top-left-radius: 18px;
+
+    -webkit-border-bottom-right-radius: 18px;
+    -moz-border-bottom-right-radius: 18px;
+    -ms-border-bottom-right-radius: 18px;
+    -o-border-bottom-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.menu-list li a:focus,
+.menu-list li a:hover {
+    background-color: #eb6266;
+    color: #fff;
+}
 
 
 
