@@ -1,0 +1,114 @@
+
+.navbar-danger .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-danger .navbar-toggle:hover,
+.navbar-danger .navbar-toggle:focus {
+    background-color: #eb6266;
+}
+
+.navbar-danger .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-danger .navbar-collapse,
+.navbar-danger .navbar-form {
+    border-color: #eb6266;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-danger {
+    background-color: #eb6266;
+    border-color: #eb6266;
+}
+
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main .card {
+    margin: 15px 0;
+}
+
+.main .card.card-left .card-body {
+    padding: 10px 15px 10px 15px;
+}
+
+.main .card.card-left .card-item img {
+    width: 100%;
+
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.main .card.card-left .card-item:focus img,
+.main .card.card-left .card-item:hover img {
+    -webkit-transform: scale(0.9) rotate(10deg);
+    -moz-transform: scale(0.9) rotate(10deg);
+    -ms-transform: scale(0.9) rotate(10deg);
+    -o-transform: scale(0.9) rotate(10deg);
+    transform: scale(0.9) rotate(10deg);
+
+}
+
+.main .card.card-left .card-item:focus .title,
+.main .card.card-left .card-item:hover .title {
+    color: #eb6266;
+}
+
+.main .card.card-right {
+    padding: 10px 15px;
+}
+
+.main .card.card-right .link-item {
+    border-bottom: 1px solid #dedede;
+}
+
+.main .card.card-right .link-item:focus,
+.main .card.card-right .link-item:hover {
+    color: #eb6266;
+}
+
+.navbar-form-right {
+    padding: 10px 0px;
+}
+
+.navbar-form-right .input-group input.form-control {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.navbar-form-right .input-group .input-group-addon {
+    background-color: #fff;
+    color: #eb6266;
+    border: 1px solid #fff;
+}
+
+.form-control:focus {
+    border-color: #fff;
+    outline: 0;
+}
+
+.form-control::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #fff;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+
+
+
+
