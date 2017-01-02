@@ -1,9 +1,44 @@
 body {
     background-image: url("../image/login/background.jpg");
 
-    height:100vh;
+    height: 100vh;
     width: 100vw;
 
-    -webkit-background-size:100% 100%;
-    background-size:100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+body div.login-form {
+
+    background: url("../image/login/login_background.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+    background: rgba(209, 226, 226, 0.37);
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+
+    width: 450px;
+    height: 450px;
+
+    display: inline-block;
+}
+
+.login-form input.form-control {
+    border:none;
+    margin-top: 15px;
+}
+
+.login-form input.form-control.form-control-username {
+    border-left: 10px solid #5cb85c;
+}
+
+.login-form input.form-control.form-control-password {
+    border-left: 10px solid #eb6266;
 }
